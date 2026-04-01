@@ -20,7 +20,6 @@ function calculate(){
     }
 }
 
-// ⌨️ Keyboard Support
 document.addEventListener("keydown", (e) => {
     const key = e.key;
 
