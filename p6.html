@@ -14,7 +14,12 @@
                 <div class="display">
                     <input type="text" name="display">
                 </div>
-
+                <div>
+                    <input type="button" value="AC" onclick="calc.display.value=''" class="operator">
+                    <input type="button" value="DE" onclick="calc.display.value = calc.display.value.slice(0,-1)">
+                    <input type="button" value="." onclick="calc.display.value += '.'" class="operator">
+                    <input type="button" value="/" onclick="calc.display.value += '/'" class="operator">
+                </div>
                
             </form>
         </div>
