@@ -20,3 +20,12 @@ function calculate(){
     }
 }
 
+document.addEventListener("keydown", (e) => {
+    const key = e.key;
+
+    if(!isNaN(key) || ['+', '-', '*', '/', '.'].includes(key)){
+        append(key);
+    }
+    else if(key === "Enter"){
+        e.preventDefault();
+        calculate();
