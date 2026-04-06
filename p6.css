@@ -68,3 +68,9 @@ button:hover{
     color:#00ffd5;
 }
 
+.equal{
+    grid-column: span 2;
+    background:#00ffd5;
+    color:#000;
+}
+
