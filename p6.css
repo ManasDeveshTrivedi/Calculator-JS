@@ -13,3 +13,9 @@ body{
     background: linear-gradient(135deg, #89f7fe, #66a6ff);
 }
 
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
