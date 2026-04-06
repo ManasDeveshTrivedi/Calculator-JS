@@ -42,3 +42,9 @@ body{
     color:#fff;
 }
 
+.buttons{
+    display:grid;
+    grid-template-columns: repeat(4,70px);
+    gap:10px;
+}
+
