@@ -29,3 +29,11 @@ document.addEventListener("keydown", (e) => {
     else if(key === "Enter"){
         e.preventDefault();
         calculate();
+    }
+    else if(key === "Backspace"){
+        deleteLast();
+    }
+    else if(key === "Escape"){
+        clearDisplay();
+    }
+});
