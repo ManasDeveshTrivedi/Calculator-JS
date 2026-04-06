@@ -48,3 +48,14 @@ body{
     gap:10px;
 }
 
+button{
+    height:60px;
+    border:none;
+    border-radius:12px;
+    font-size:18px;
+    cursor:pointer;
+    background: rgba(255,255,255,0.2);
+    color:white;
+    transition:0.2s;
+}
+
