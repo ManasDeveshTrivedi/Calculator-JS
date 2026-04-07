@@ -1,17 +1,13 @@
 const display = document.getElementById("display");
-
 function append(value){
     display.value += value;
 }
-
 function clearDisplay(){
     display.value = "";
 }
-
 function deleteLast(){
     display.value = display.value.slice(0, -1);
 }
-
 function calculate(){
     try{
         display.value = eval(display.value);
@@ -19,10 +15,8 @@ function calculate(){
         display.value = "Error";
     }
 }
-
 document.addEventListener("keydown", (e) => {
     const key = e.key;
-
     if(!isNaN(key) || ['+', '-', '*', '/', '.'].includes(key)){
         append(key);
     }
